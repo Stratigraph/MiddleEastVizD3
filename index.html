@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<style>
+
+.node {
+  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #bbb;
+}
+
+.link {
+  fill: none;
+  /*stroke-width: 2px;*/
+}
+
+.link:hover{
+  stroke-opacity: 1;
+}
+
+.container {
+    float: left;
+}
+
+body {
+    background-color: #424242;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: white;
+    margin: 50px;
+}
+
+a {
+    color: #4FDEF2;
+}
+
+.axis {
+    fill: gray;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.axis .halo {
+    stroke: gray;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.slider .handle path {
+    stroke: white;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    pointer-events: none;
+}
+
+.slider .handle text {
+    fill: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    color: #c4c1c4;
+    width: 1200px;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    color: #c4c1c4;
+    text-align: center;
+    font-size: 22px;
+}
+
+h3 {
+    color: #c4c1c4;
+    text-align: left;
+    font-size: 20px;
+}
+
+</style>
+<body>
+<title>Notable Relationships of Syria</title>
+<h1>Notable Relationships of Syria</h1>
+<div class="container" id="chart">
+    <h2>Overview for 2015</h2>
+</div>
+<div class="container" id="chart2">
+    <h2>Events for a given day</h2>
+</div>
+<div id="legend"></div>
+<div id="slider"></div>
+<div id="text">
+    <h3>Headlines for the events of the day</h3>
+</div>
+<script type="text/javascript" src="d3/d3.js"></script>
+<script type="text/javascript" src="helperMethods.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
